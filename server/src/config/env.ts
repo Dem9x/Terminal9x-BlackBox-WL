@@ -3,8 +3,8 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const rawClientUrls =
+  process.env.CLIENT_URLS ??
   process.env.CLIENT_URL ??
-  process.env.CLIENT_ORIGIN ??
   "http://localhost:5173";
 
 const clientUrls = rawClientUrls
