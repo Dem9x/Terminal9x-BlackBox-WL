@@ -311,7 +311,7 @@ export function RegisterPage() {
                   onChange={(value) =>
                     setForm((current) => ({ ...current, email: value }))
                   }
-                  placeholder="agent@terminal9x.net"
+                  placeholder="agent@terminal9x.fun"
                   required
                 />
               </div>

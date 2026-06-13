@@ -84,19 +84,19 @@ body {
   opacity: 0.35;
 } */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .scanlines::before,
   .scanline-overlay {
     opacity: .15 !important;
     background-size: 100% 6px;
   }
-}
-.glitch-hover:hover {
+} */
+/* .glitch-hover:hover {
     animation: glitch 0.3s cubic-bezier(.25, .46, .45, .94) both infinite;
     color: var(--color-cyan-neon);
-  }
+  } */
 
-  .redacted-bar {
+  /* .redacted-bar {
     background-color: #1e293b;
     color: transparent !important;
     user-select: none;
@@ -106,7 +106,7 @@ body {
   .redacted-bar:hover {
     background-color: transparent;
     color: inherit !important;
-  }
+  } */
 
   .exporting-image .hide-on-export {
     display: none !important;
@@ -148,17 +148,17 @@ body {
     opacity: 0.8;
   }
 
- .glitch-effect {
+ /* .glitch-effect {
   text-shadow:
     1px 0 rgba(0,243,255,.5),
    -1px 0 rgba(255,0,80,.4);
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .glitch-effect {
     animation: glitch 4s steps(2) infinite;
   }
-}
+} */
 .clip-corners { clip-path: polygon(18px 0, 100% 0, 100% calc(100% - 18px), calc(100% - 18px) 100%, 0 100%, 0 18px); }
 
 .classified-stamp {
@@ -185,7 +185,7 @@ body {
   50% { opacity: 0; }
 }
 
-@keyframes flicker-soft {
+/* @keyframes flicker-soft {
   0%,100% {
     opacity: 1;
   }
@@ -197,13 +197,13 @@ body {
   52% {
     opacity: .98;
   }
-}
+} */
 
-.flicker-text {
+/* .flicker-text {
   animation: flicker-soft 5s ease-in-out infinite;
-}
+} */
 
-@keyframes glitch {
+/* @keyframes glitch {
   0%,96%,100% {
     transform: translateX(0);
   }
@@ -223,16 +223,16 @@ body {
 @keyframes pulse-slow {
   0%, 100% { opacity: 1; }
   50% { opacity: 0.8; }
-}
+} */
 
-@keyframes scan {
+/* @keyframes scan {
   0% { transform: translateY(-100%); }
   100% { transform: translateY(100%); }
-}
+} */
 
-.animate-scan {
+/* .animate-scan {
   animation: scan 2s linear infinite;
-}
+} */
 
 ::-webkit-scrollbar {
   width: 8px;
@@ -249,14 +249,14 @@ body {
 }
 
 
-@media (prefers-reduced-motion: reduce) {
+/* @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
     animation: none !important;
     transition: none !important;
   }
-}
+} */
 @media (max-width: 768px) {
 
   .scanline-overlay,
@@ -264,14 +264,14 @@ body {
     display: none;
   }
 
-  .glitch-effect,
+  /* .glitch-effect,
   .glitch-hover {
     animation: none !important;
-  }
-
+  } */
+/* 
   .flicker-text {
     animation: none !important;
-  }
+  } */
 
   .neon-text {
     text-shadow: 0 0 4px rgba(0,243,255,.4);
